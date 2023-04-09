@@ -1,5 +1,5 @@
 firstText = "Interiors";
-secondText = "3D Art";
+secondText = "Concepts";
 thirdText = "HomeDecor"
 intervalTime = 600;
 window.load = displayText();
