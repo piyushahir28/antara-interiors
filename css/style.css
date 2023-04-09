@@ -36,6 +36,23 @@ body {
 
 /*WhatsApp Button*/
 
+
+.float-btn{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:120px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+
 .float{
 	position:fixed;
 	width:60px;
@@ -339,4 +356,22 @@ text-align:center;
 
 .givePadding{
   padding: 1rem;
+}
+
+/*google-map*/
+
+.map_sec{
+  padding: 50px 0px;
+}
+.map_inner h4, .map_inner p{
+  color: #000;
+  text-align: center
+}
+.map_inner p{
+  font-size: 13px;
+}
+.map_bind{
+  margin-top: 50px;
+  border-radius: 30px;
+  overflow: hidden;
 }
