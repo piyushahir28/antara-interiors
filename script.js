@@ -3,6 +3,7 @@ secondText = "Concepts";
 thirdText = "HomeDecor"
 intervalTime = 600;
 window.load = displayText();
+
 function displayText() {
     // display first text
     document.querySelector('#dynamicContent').innerText = firstText;

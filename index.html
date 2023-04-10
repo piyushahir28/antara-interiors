@@ -1,339 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-links-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!--google fonts-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-      </style>
+    </style>
+    <!--css-link-->
     <link rel="stylesheet" href="./css/style.css">
-    <title>antara-interiors</title>
-    <link rel = "icon" href = "https://raw.githubusercontent.com/piyushahir28/antara-interiors/main/images/antara-logo.png" type = "image/x-icon">
-    <style></style>
+    <title>antara-interiors | home</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/piyushahir28/antara-interiors/main/images/antara-logo.png" type="image/x-icon">
 </head>
+
 <body>
+    <!--code for navigation bar-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><b>antara-interiors</b></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About-Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact-Us</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#"><b>antara-interiors</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About-Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact-Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-      <br><br>
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="container d-flex align-self-center align-items-center  flex-column justify-content-center h-100 display-4 fw-semibold">
-                    <div>antara-interiors</div>
-                    <div style="color: #8E5250;" id="dynamicContent" class="overflow-hidden">Interiors</div>
-                    <div>Best of all</div>
+    </nav>
+    <br><br>
+    <!--code for header (include header picture and text)-->
+    <section id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container d-flex align-self-center align-items-center  flex-column justify-content-center h-100 display-4 fw-semibold">
+                        <div>antara-interiors</div>
+                        <div style="color: #8E5250;" id="dynamicContent" class="overflow-hidden">Interiors</div>
+                        <div>Best of all</div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-container img-fluid img-responsive" src="./images/header-img.png" alt="header-img" srcset="">
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img class="img-container img-fluid img-responsive" src="./images/header-img.png" alt="header-img" srcset="">
-            </div>
         </div>
-    </div>
-
+    </section>
     <br>
-
-    <!--About Us Section -->
-
-    <div class="feat bg-gray pt-5 pb-5">
-      <div class="section-heading text-center">
-        <span class="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3 displayButtons">
-            <i class="far fa-lightbulb text-primary mr-1"></i>
-            <span style="color: aliceblue;">About-Us</span>
-        </span>
-      </div>
-      <br>
-      <div class="container">
-        <div class="row">
-          <div class="section-head col-sm-12">
-            <h4><span>Why Choose</span> antara-interiors?</h4>
-            <p>We are a team of passionate and creative individuals dedicated to transforming homes and commercial spaces into stunning, functional, and comfortable living areas. With years of experience in the industry, we have built a reputation for providing exceptional design services to clients across various sectors.</p>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
-              <h6>Modern Design</h6>
-              <p>We use latest technology for the latest world because we know the demand of peoples.</p>
+    <!--code for about-us section(companys' description)-->
+    <section id="about-us">
+        <div class="feat bg-gray pt-5 pb-5">
+            <div class="section-heading text-center">
+                <span class="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3 displayButtons">
+                <i class="far fa-lightbulb text-primary mr-1"></i>
+                <span style="color: aliceblue;">About-Us</span>
+                </span>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
-              <h6>Creative Design</h6>
-              <p>We are always creative and and always lisen our costomers and we mix these two things and make beast design.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
-              <h6>24 x 7 User Support</h6>
-              <p>If our customer has any problem and any query we are always happy to help then.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
-              <h6>Business Growth</h6>
-              <p>Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
-              <h6>Market Strategy</h6>
-              <p>Holding back technology to preserve broken business models is like allowing blacksmiths to veto the internal combustion engine in order to protect their horseshoes.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
-              <h6>Affordable cost</h6>
-              <p>Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--Testimonial-->
-
-    <section id="review" class="review-area ptb_100">
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-12 col-md-10 col-lg-8">
-                  <!-- Section Heading -->
-                  <div class="section-heading text-center">
-                      <span style="background-color: aliceblue;" class="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3">
-                          <i class="far fa-lightbulb text-primary mr-1"></i>
-                          <span class="text-primary">Customer's</span>
-                          Reviews
-                      </span>
-                      <br><br>
-                      <h2 style="color: azure;" class="text-capitalize">What our customers are saying</h2>
-                      <p class="d-none d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                          Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
-                      </p>
-                      <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                          Laborum obcaecati.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-12 col-md-6 col-lg-4 res-margin givePadding">
-                  <!-- Single Review -->
-                  <div class="single-review card">
-                      <!-- Card Top -->
-                      <div class="card-top p-4">
-                          <h4 class="text-primary mt-4 mb-3">Excellent service!</h4>
-                          <!-- Review Text -->
-                          <div class="review-text">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam id facilis,
-                                  provident doloremque placeat eveniet molestias laboriosam. Optio, esse.</p>
-                          </div>
-                          <!-- Quotation Icon -->
-                          <div class="quot-icon">
-                              <img class="avatar-md" src="#" alt="">
-                          </div>
-                      </div>
-                      <!-- Reviewer -->
-                      <div class="reviewer media bg-gray p-4">
-                          <!-- Reviewer Thumb -->
-                          <div class="reviewer-thumb">
-                              <img class="avatar-lg radius-100" src="assets/img/avatar/avatar-1.png" alt="">
-                          </div>
-                          <!-- Reviewer Media -->
-                          <div class="reviewer-meta media-body align-self-center ml-4">
-                              <h5 class="reviewer-name color-primary mb-2">Junaid Hasan</h5>
-                              <h6 class="text-secondary fw-6">CEO, Themeland</h6>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 res-margin givePadding">
-                  <!-- Single Review -->
-                  <div class="single-review card">
-                      <!-- Card Top -->
-                      <div class="card-top p-4">
-                          <h4 class="text-primary mt-4 mb-3">Nice work! Keep it up</h4>
-                          <!-- Review Text -->
-                          <div class="review-text">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam id facilis,
-                                  provident doloremque placeat eveniet molestias laboriosam. Optio, esse.</p>
-                          </div>
-                          <!-- Quotation Icon -->
-                          <div class="quot-icon">
-                              <img class="avatar-md" src="assets/img/icon/quote.png" alt="">
-                          </div>
-                      </div>
-                      <!-- Reviewer -->
-                      <div class="reviewer media bg-gray p-4">
-                          <!-- Reviewer Thumb -->
-                          <div class="reviewer-thumb">
-                              <img class="avatar-lg radius-100" src="assets/img/avatar/avatar-2.png" alt="">
-                          </div>
-                          <!-- Reviewer Media -->
-                          <div class="reviewer-meta media-body align-self-center ml-4">
-                              <h5 class="reviewer-name color-primary mb-2">Junaid Hasan</h5>
-                              <h6 class="text-secondary fw-6">CEO, Themeland</h6>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 givePadding">
-                  <!-- Single Review -->
-                  <div class="single-review card">
-                      <!-- Card Top -->
-                      <div class="card-top p-4">
-                          <h4 class="text-primary mt-4 mb-3">Great support!!</h4>
-                          <!-- Review Text -->
-                          <div class="review-text">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam id facilis,
-                                  provident doloremque placeat eveniet molestias laboriosam. Optio, esse.</p>
-                          </div>
-                          <!-- Quotation Icon -->
-                          <div class="quot-icon">
-                              <img class="avatar-md" src="assets/img/icon/quote.png" alt="">
-                          </div>
-                      </div>
-                      <!-- Reviewer -->
-                      <div class="reviewer media bg-gray p-4">
-                          <!-- Reviewer Thumb -->
-                          <div class="reviewer-thumb">
-                              <img class="avatar-lg radius-100" src="assets/img/avatar/avatar-3.png" alt="">
-                          </div>
-                          <!-- Reviewer Media -->
-                          <div class="reviewer-meta media-body align-self-center ml-4">
-                              <h5 class="reviewer-name color-primary mb-2">Junaid Hasan</h5>
-                              <h6 class="text-secondary fw-6">CEO, Themeland</h6>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-  <!--google-map-->
-
-  <section class="map_sec">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-                <div class="map_inner">
-                    <h4>Find Us on Google Map</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quo beatae quasi assumenda, expedita aliquam minima tenetur maiores neque incidunt repellat aut voluptas hic dolorem sequi ab porro, quia error.</p>
-                    <div class="map_bind">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4519129244663!2d73.7900452142959!3d18.508469487416004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf314d776303%3A0x1966c33a2b671d53!2sAntara%20Interiors!5e0!3m2!1sen!2sin!4v1681034557917!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="section-head col-sm-12">
+                        <h4><span>Why Choose</span> antara-interiors?</h4>
+                        <p>
+                            We are a team of passionate and creative individuals dedicated to transforming homes and commercial spaces into stunning, functional, and comfortable living areas. With years of experience in the industry, we have built a reputation for providing exceptional
+                            design services to clients across various sectors.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
+                            <h6>Modern Design</h6>
+                            <p>We use latest technology for the latest world because we know the demand of peoples.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
+                            <h6>Creative Design</h6>
+                            <p>We are always creative and and always lisen our costomers and we mix these two things and make beast design.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
+                            <h6>24 x 7 User Support</h6>
+                            <p>If our customer has any problem and any query we are always happy to help then.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                            <h6>Business Growth</h6>
+                            <p>Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
+                            <h6>Market Strategy</h6>
+                            <p>Holding back technology to preserve broken business models is like allowing blacksmiths to veto the internal combustion engine in order to protect their horseshoes.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
+                            <h6>Affordable cost</h6>
+                            <p>Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-  
-<!--Footer-->
-
-<footer class="footer-section">
-  <div class="container footer-color">
-      <div class="footer-content pt-5 pb-5">
-          <div class="row">
-              <div class="col-xl-4 col-lg-4 mb-50">
-                  <div class="footer-widget">
-                      <div class="footer-logo">
-                          <a href="index.html"><img src="https://raw.githubusercontent.com/piyushahir28/antara-interiors/main/images/antara-logo.png" class="img-fluid" alt="logo"></a>
-                      </div>
-                      <div style="color: aliceblue;" class="footer-text">
-                      </div>
-                      <div class="footer-social-icon">
-                          <span>Follow us</span>
-                          <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                          <a href="#"><i class="fa fa-youtube-play fa-2x"></i></a>
-                          <a href="#"><i class="fa fa-envelope fa-2x"></i></a>
-                          <a href="#"><i class="fa fa-whatsapp fa-2x"></i></a>
-                          <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-                          <a href="#"><i class="fa fa-phone fa-2x"></i></a>   
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                  <div class="footer-widget">
-                      <div class="footer-widget-heading">
-                          <h3>Useful Links</h3>
-                      </div>
-                      <ul>
-                          <li><a style="color: aliceblue;" href="#">Home</a></li>
-                          <li><a style="color: aliceblue;" href="#">about-us</a></li>
-                          <li><a style="color: aliceblue;" href="#">testimonials</a></li>
-                          <li><a style="color: aliceblue;" href="#">contact-us</a></li>
-                          <li><a style="color: aliceblue;" href="#">work</a></li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                  <div class="footer-widget">
-                      <div class="footer-widget-heading">
-                          <h3>Address</h3>
-                      </div>
-                      <div class="footer-text mb-25">
-                          <p style="color: aliceblue;"> Plot no 56, Suneeta Park, 120, Paud Rd, Paud Road, Shivtirth Nagar, Bhusari Colony, Kothrud, Pune, Maharashtra 411038 </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="copyright-area">
-      <div class="container">
-          <div class="row">
-              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                  <div class="copyright-text">
-                      <p>Copyright &copy; 2023, All Right Reserved | &lt;/&gt; by  <a href="https://www.linkedin.com/in/piyushahir28/" target="_blank">Piyush Ahir</a></p>
-                  </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                  <div class="footer-menu">
-                      <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">Terms</a></li>
-                          <li><a href="#">Privacy</a></li>
-                          <li><a href="#">Policy</a></li>
-                          <li><a href="#">Contact</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</footer>
-
+    </section>
+    <!--code for testimonia-->
+    <section id="testimonials" class="review-area ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="section-heading text-center">
+                        <span style="background-color: aliceblue;" class="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3">
+                            <i class="far fa-lightbulb text-primary mr-1"></i>
+                            <span class="text-primary">Customer's</span> Reviews
+                        </span>
+                        <br><br>
+                        <h2 style="color: azure;" class="text-capitalize">What our customers are saying</h2>
+                        <p style="text-align: center;" class="d-none d-sm-block mt-4">Feedback is important because it provides valuable information to help us improve and grow. Whether it's feedback on our work, behavior, or performance, it helps us identify areas of strength and weakness. Positive feedback helps
+                            us understand what we're doing well and reinforces good behavior, while constructive feedback helps us recognize areas for improvement and make necessary changes. Without feedback, we may continue to make the same mistakes,
+                            miss opportunities for growth, and fail to reach our full potential. Feedback allows us to learn from our experiences, build better relationships, and achieve our goals more effectively.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 res-margin givePadding">
+                    <!-- Single Review -->
+                    <div class="single-review card">
+                        <!-- Card Top -->
+                        <div class="card-top p-4">
+                            <h4 class="text-primary mt-4 mb-3">Excellent service!</h4>
+                            <!-- Review Text -->
+                            <div class="review-text">
+                                <p style="text-align: justify;">I came to know about Antara Interior and Sanket after seeing his exceptional interior design work at a construction site. I was impressed by our conversation and the package he was offering. One of the things we appreciated
+                                    most was the way he managed the entire project - all the work started parallelly, including POP, carpentry, and electrical fitting, and everyone involved was very cooperative throughout the process.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Reviewer -->
+                        <div class="reviewer media bg-gray p-4">
+                            <!-- Reviewer Media -->
+                            <div class="reviewer-meta media-body align-self-center ml-4">
+                                <h5 class="reviewer-name color-primary mb-2">Pavan & Praveena Gupta</h5>
+                                <h6 class="text-secondary fw-6">Pune, Maharashtra</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 res-margin givePadding">
+                    <!-- Single Review -->
+                    <div class="single-review card">
+                        <!-- Card Top -->
+                        <div class="card-top p-4">
+                            <h4 class="text-primary mt-4 mb-3">Budget friendly</h4>
+                            <!-- Review Text -->
+                            <div class="review-text">
+                                <p style="text-align: justify;">I am extremely satisfied with the interior designing work done in my home! Whenever my friends visit me, they frequently ask me questions like, "Who did the interior work?" and "Must have been expensive?" But I am thrilled
+                                    to say that everything was done within my budget and on time! I particularly love my kitchen and the cute little mandir that was made. Antara Interior have delivered all of these aspects beautifully.</p>
+                            </div>
+                        </div>
+                        <!-- Reviewer -->
+                        <div class="reviewer media bg-gray p-4">
+                            <!-- Reviewer Media -->
+                            <div class="reviewer-meta media-body align-self-center ml-4">
+                                <h5 class="reviewer-name color-primary mb-2">Ritu Mishra</h5>
+                                <h6 class="text-secondary fw-6">Pune, Maharashtra</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 givePadding">
+                    <!-- Single Review -->
+                    <div class="single-review card">
+                        <!-- Card Top -->
+                        <div class="card-top p-4">
+                            <h4 class="text-primary mt-4 mb-3">Great support!!</h4>
+                            <!-- Review Text -->
+                            <div class="review-text">
+                                <p style="text-align: justify;">My experience with Antara Interior and Sanket has been exceptional - he delivered what he promised! I explored multiple options here in Pune, and after seeing his work, I decided to contact him. He provided a 3D design
+                                    video of our home, considering the aspect of space management, as I requested. Throughout the project, Sanket and his team worked efficiently and within our budget.</p>
+                            </div>
+                        </div>
+                        <!-- Reviewer -->
+                        <div class="reviewer media bg-gray p-4">
+                            <!-- Reviewer Media -->
+                            <div class="reviewer-meta media-body align-self-center ml-4">
+                                <h5 class="reviewer-name color-primary mb-2">Prabhat Mishra</h5>
+                                <h6 class="text-secondary fw-6">Software Engineer, Pune</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--code for contact-us(google map)-->
+    <section class="map_sec" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="map_inner">
+                        <h4>Find Us on Google Map</h4>
+                        <div class="map_bind">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4519129244663!2d73.7900452142959!3d18.508469487416004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf314d776303%3A0x1966c33a2b671d53!2sAntara%20Interiors!5e0!3m2!1sen!2sin!4v1681034557917!5m2!1sen!2sin"
+                                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--code for footer-->
+    <section id="footer">
+        <footer class="footer-section">
+            <div class="container footer-color">
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="https://raw.githubusercontent.com/piyushahir28/antara-interiors/main/images/antara-logo.png" class="img-fluid" alt="logo"></a>
+                                </div>
+                                <div style="color: aliceblue;" class="footer-text">
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                    <a href="https://youtube.com/@AntaraInterior" target="_blank"><i class="fa fa-youtube-play fa-2x"></i></a>
+                                    <a href="mailto: antarainteriorPvtLtd@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                                    <a href="https://wa.me/+918552904590" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
+                                    <a href="https://instagram.com/antara_interior?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                                    <a href="tel:+918552904590" target="_blank"><i class="fa fa-phone fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a style="color: aliceblue;" href="#">Home</a></li>
+                                    <li><a style="color: aliceblue;" href="#about-us">about-us</a></li>
+                                    <li><a style="color: aliceblue;" href="#testimonials">testimonials</a></li>
+                                    <li><a style="color: aliceblue;" href="#contact-us">contact-us</a></li>
+                                    <li><a style="color: aliceblue;" href="./gallery.html">work</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Address</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p style="color: aliceblue;"> Plot no 56, Suneeta Park, 120, Paud Rd, Paud Road, Shivtirth Nagar, Bhusari Colony, Kothrud, Pune, Maharashtra 411038 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="text-center">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2023, All Right Reserved | &lt;/&gt; by <a href="https://www.linkedin.com/in/piyushahir28/" target="_blank">Piyush Ahir</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!--code for floating always sticky icons-->
     <a href="tel:+918552904590" class="float" target="_blank">
-      <i class="fa fa-phone my-float"></i>
+        <i class="fa fa-phone my-float"></i>
     </a>
-
     <a href="https://wa.me/+918552904590" class="float-btn" target="_blank">
-      <i class="fa fa-whatsapp my-float"></i>
+        <i class="fa fa-whatsapp my-float"></i>
     </a>
-
+    <!--javascript link code-->
     <script src="./script.js"></script>
-    </body>
+</body>
+
 </html>
