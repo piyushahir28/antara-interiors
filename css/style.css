@@ -3,8 +3,19 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
+    color: #1a1a1a;
+    font-family: "Poppins", sans-serif;
+    background: hsla(141, 54%, 86%, 1);
+    background: linear-gradient( to right, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+    background: -moz-linear-gradient( to right, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+    background: -webkit-linear-gradient( to right, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+}
+
+.addBG {
+    background-image: url('https://raw.githubusercontent.com/piyushahir28/antara-interiors/main/images/14.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 
@@ -14,7 +25,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -99,7 +110,7 @@ a:hover {
 }
 
 .section-head {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 .section-head h4 {
@@ -347,7 +358,6 @@ p.awesome_line {
 }
 
 .review-area {
-    background-color: var(--primary);
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
